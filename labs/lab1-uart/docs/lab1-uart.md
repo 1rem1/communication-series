@@ -293,11 +293,11 @@ Dành cho ai thích gặm nhấm sự tĩnh lặng, nhấn-nút-là-xong:
 
 Sau bao nhiêu công sức "rèn đúc" mã nguồn và "bơm não" cho các vi điều khiển, đây là lúc chúng ta chiêm ngưỡng thành quả. Dưới đây là hình ảnh thực tế của anh công nhân STM32 khi thực thi mệnh lệnh từ Giám đốc ESP32.
 
-````carousel
 ![Trạng thái đèn TẮT (Coil Value: 0x0000)](./images/preview1.jpg)
-<!-- slide -->
+*Hình 1: Trạng thái đèn TẮT (Coil Value: 0x0000)*
+
 ![Trạng thái đèn BẬT (Coil Value: 0xFF00)](./images/preview2.jpg)
-````
+*Hình 2: Trạng thái đèn BẬT (Coil Value: 0xFF00)*
 
 > [!NOTE]
 > **Sự kỳ diệu của Modbus:** Bạn có thể thấy chiếc LED xanh (PC13) trên mạch Bluepill bừng sáng hoặc lịm tắt chính xác theo từng nhịp lệnh gửi đi từ ESP32. Đây chính là minh chứng cho việc "ngôn ngữ chung" Modbus đã được thông dịch hoàn hảo giữa hai thế giới khác biệt.
